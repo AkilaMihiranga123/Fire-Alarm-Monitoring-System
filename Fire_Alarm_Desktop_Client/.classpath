@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="/RMI-Server_Desktop_Client-Service"/>
+	<classpathentry kind="lib" path="C:/Users/Akila Mihiranga/Downloads/javax.mail.jar"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>
