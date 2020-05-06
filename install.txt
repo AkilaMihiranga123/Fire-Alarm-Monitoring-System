@@ -1,0 +1,64 @@
+Step 1: clone the project using https://github.com/DS-Fire-Alarm-System/fire-alarm-system.git
+
+Step 2: Run REST API Service.
+	--2.1: Go inside fire_alarm_web_service_api folder.
+	--2.2: Open command prompt in that file location path.
+	--2.3: Type npm install , then press Enter.
+	--2.4: After install Node modules, then type npm start and press Eneter.
+	
+
+Step 3: Run Web Client Application.
+	--3.1: Go inside fire_alarm_web_client_app folder.
+	--3.2: Open command prompt in that file location path.
+	--3.3: Type npm install , then press Enter.
+	--3.4: After install Node modules, then type npm start and press Eneter.
+
+
+Step 4: Run RMI Server.
+	--4.1: Open Eclipse IDE.
+	--4.2: Then Goto File --> Open Projects from File Syste --> Derectory -->  select RMI-Server_Desktop_Client-Service Folder --> Click Finish
+	--4.3: Exapnd project and Go src --> com.rmi.server --> Server.java
+	--4.4: Right click on Server.java --> Show In --> System Explorer. then open Server.java file location
+	--4.5: Open command prompt in that file location path.
+	--4.6: Type start rmiregistry , then press Enter.
+	--4.7: Go Back to Eclipse IDE.
+	--4.8: Right click on Server.java --> Run As --> Java Application.
+
+
+Step 5: Run RMI Client.(Desktop Client)
+	--5.1: Open Eclipse IDE.
+	--5.2: Then Goto File --> Open Projects from File Syste --> Derectory -->  select Fire_Alarm_Desktop_Client Folder --> Click Finish
+	--5.3: Set Email.
+		--5.3.1: Exapnd project and Go src --> com.client.interfaces --> mainDashboardFrame.java and Open it.
+		--5.3.2: Go line number 82 in the code.
+		--5.3.3: Remove the mentioned Email and Type Your working valid email and then Save.
+	--5.4: Go src --> com.client.interfaces --> userLoginFrame.java
+	--5.5: Right click on userLoginFrame.java --> Run As --> Java Application.
+
+
+Step 6: Run simulate Application.(sensor App)
+	--6.1: Go inside simulate-app folder.
+	--6.2: Open command prompt in that file location path.
+	--6.3: Type npm install , then press Enter.
+	--6.4: After install Node modules, then type npm start and press Eneter.
+
+
+===================================================================================================
+We Used MongoDB Atlas as our Database.
+
+To get MongoDB Access,Follow Thease Steps.
+
+Step 1: Go https://www.mongodb.com/
+Step 2: Click Sign In
+Step 3: Give User Credentials
+	--Email: akilamihiranganew484@gmail.com
+	--Password: MongoDBM484@
+
+Step 4: Go inside  Fire-Alarm-Monitoring-System-DB Cluster
+Step 5: Click COLLECTIONS
+Step 6: Expand database called test
+Step 7: Then you can see two tables.
+		-- users
+		-- alarmsensors
+
+

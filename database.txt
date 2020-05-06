@@ -1,0 +1,16 @@
+We Used MongoDB Atlas as our Database.
+
+To get MongoDB Access,Follow Thease Steps.
+
+Step 1: Go https://www.mongodb.com/
+Step 2: Click Sign In
+Step 3: Give User Credentials
+	--Email: akilamihiranganew484@gmail.com
+	--Password: MongoDBM484@
+
+Step 4: Go inside  Fire-Alarm-Monitoring-System-DB Cluster
+Step 5: Click COLLECTIONS
+Step 6: Expand database called test
+Step 7: Then you can see two tables.
+		-- users
+		-- alarmsensors
