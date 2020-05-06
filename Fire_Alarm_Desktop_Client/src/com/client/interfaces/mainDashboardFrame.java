@@ -77,14 +77,14 @@ public class mainDashboardFrame extends javax.swing.JFrame {
             	model.addRow(row);
             	
             	//if smoke level or CO2 level grater than 5, send email to admin.
-            	//if(sensor.getSmokeLevel() > 5 || sensor.getCo2Level() > 5) {
+            	if(sensor.getSmokeLevel() > 5 || sensor.getCo2Level() > 5) {
             		//pass email address and floor number and room number.
-            	//	SendEmail.sendMail("akilamihiranga484@gmail.com", sensor.getFloorNumber(), sensor.getRoomNumber());
-            	//}
+            		SendEmail.sendMail("akilamihiranga484@gmail.com", sensor.getFloorNumber(), sensor.getRoomNumber());
+            	}
             	//if smoke level or CO2 level less than 5, print fine message.
-            	//else {
-            	//	System.out.println("Sensors OK!");
-            	//}
+            	else {
+            		System.out.println("Sensors OK!");
+            	}
             }
             //set model to table
             AlarmListTable.setModel(model);
