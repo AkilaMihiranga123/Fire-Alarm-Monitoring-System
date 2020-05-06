@@ -1,3 +1,16 @@
+Essetials Needs:-
+=========================================
+
+1. Java development kit 8 (jdk1.8.0_211).
+2. Eclipse.
+3. Node.js.
+4. Internet Connection.
+
+=========================================
+
+Installation Steps:-
+=============================================================================================
+
 Step 1: clone the project using https://github.com/DS-Fire-Alarm-System/fire-alarm-system.git
 
 Step 2: Run REST API Service.
